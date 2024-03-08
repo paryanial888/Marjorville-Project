@@ -1,11 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        /* Style the navigation bar */
+        .navbar {
+            width: 100%;
+            background-color: #555;
+            overflow: auto;
+            /* Add these properties to center the links */
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Style the navigation links */
+        .navbar a {
+            float: left;
+            text-align: center;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        /* Change the color on hover */
+        .navbar a:hover {
+            background-color: #000;
+        }
+
+
+        /* Style the footer */
+        .footer {
+            width: 100%;
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            font-size: 15px;
+            /* Add these properties to position the footer at the bottom */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+
+        /* Style the body */
+        .body {
+            margin: 20px;
+        }
+
+        /* Style the image */
+        .image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        /* Style the header */
+        .header {
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        /* Style the text */
+        .text {
+            text-align: justify;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-    
+    <!-- Create the navigation bar -->
+    <div class="navbar">
+        <a href="#">History</a>
+        <a href="#">Activities</a>
+    </div>
+
+    <!-- Create the body -->
+    <div class="body">
+        <!-- Add an image -->
+        <img src="image.jpg" alt="Image" class="image">
+
+        <!-- Add a header -->
+        <h1 class="header">Welcome to my website</h1>
+
+        <!-- Add some text -->
+        <p class="text">This is a sample website that I created with the help of Copilot, an AI companion. Copilot can generate code, content, and more using its own words and knowledge. You can ask Copilot anything and it will try to help you.</p>
+    </div>
+
+    <!-- Create the footer -->
+    <div class="footer">
+        <p>© 2024 by Me. All rights reserved.</p>
+    </div>
 </body>
 </html>
