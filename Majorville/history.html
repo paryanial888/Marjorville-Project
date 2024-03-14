@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Town History</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <style>
+    html,body {
+      width: 100%;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    #footer {
+      width: auto;
+      height: auto;
+    }
+    #figure img {
+      max-width: 100%;
+      object-fit: contain;
+      height: auto;
+    }
+    @media only screen and (max-width: 880px) {
+      html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      #sidebar_container {
+        float:left;
+        width: auto;
+      }
+      ul#menu { 
+        float: left;
+        margin: 0;
+      }
+      #site_content { 
+        width: auto;
+        overflow: hidden;
+        margin: 20px auto 0 auto;
+        padding: 0 0 10px 0;
+      }
+      #banner {  
+        width: auto;
+        height: 180px;
+        margin-bottom: 20px;
+        border: 10px solid #DDD;
+      }
+  }
+  </style>
+</head>
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Major<span class="logo_colour">ville</span></a></h1>
+          <h2>Majorville Summer Solstice Festival</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li class="selected"><a href="history.html">Town History</a></li>
+          <li><a href="activities.html">Activities</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Latest News</h3>
+            <h4>Majorville</h4>
+            <h5>Majorville Summer Solstice Festival</h5>
+            <p>Buy Your Tickets Now!</p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Majorville Links</h3>
+            <ul>
+              <li><a href="#">Buy Majorville Merch</a></li>
+              <li><a href="#">Buy Tickets</a></li>
+              <li><a href="#">Find Us On Facebook</a></li>
+              <li><a href="#">Find Us On Google Maps</a></li>
+            </ul>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        <!-- Page Content -->
+        <h1>History of Majorville</h1>
+        <p>Majorville is located on Lake Michigan where Pine Creek empties into Lake Michigan. In the 1870s and 1880s, Majorville was a booming lumber town!</p>
+        <p>Following the U. S. Civil War, the veterans returned home, and John Major.</p>
+        <p>Lumber speculators were on their way north as the forests near Grand Haven and Muskegon were harvested.</p>
+        <p>Dr. Arthur O&apos;	Leary began buying up large tracts of forest and made plans to build a sawmill. He started a lumber operation with his brother.</p>
+        <p>In 1865, Daniel Thomas and William Woodward built a dock on John Major&apos;s property on Lake Michigan, just north of Pine Creek.</p>
+        <p>The sawmill was built on the south side of Pine Creek not far from Lake Michigan.</p>
+        <p>Mill operation began in 1869 for the purpose of producing white pine lumber, and the town of Majorville was established.</p>
+        <figure>
+          <img src="farm_with_sky.jpg" alt="Farm">
+          <figcaption>"Benton farms HDR" by thaddselden is licensed under CC BY-SA 2.0.</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="history.html">Town History</a> | <a href="activities.html">Activities</a></p>
+      <p>Copyright &copy; Majorville 2024 | Alexander Paryani 2024</p>
+    </div>
+  </div>
+</body>
+</html>

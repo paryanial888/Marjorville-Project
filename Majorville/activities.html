@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activities</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css"/>
+  <style>
+    html,body {
+      background-color: rgb(204, 228, 255);
+      color: #aaaaaa;
+      width: 100%;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    h2 {
+      color:rgb(255, 127, 127);
+    }
+    #footer {
+      width: auto;
+      height: auto;
+    }
+    #figure img {
+      max-width: 100%;
+      object-fit: contain;
+      height: auto;
+    }
+    @media only screen and (max-width: 880px) {
+      html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      #sidebar_container {
+        float:left;
+        width: auto;
+      }
+      ul#menu { 
+        float: left;
+        margin: 0;
+      }
+      #site_content { 
+        width: auto;
+        overflow: hidden;
+        margin: 20px auto 0 auto;
+        padding: 0 0 10px 0;
+      }
+      #banner {  
+        width: auto;
+        height: 180px;
+        margin-bottom: 20px;
+        border: 10px solid #DDD;
+      }
+  }
+  </style>
+</head>
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Major<span class="logo_colour">ville</span></a></h1>
+          <h2>Majorville Summer Solstice Festival</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">Town History</a></li>
+          <li class="selected"><a href="activities.html">Activities</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Latest News</h3>
+            <h4>Majorville</h4>
+            <h5>Majorville Summer Solstice Festival</h5>
+            <p>Buy Your Tickets Now!</p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Majorville Links</h3>
+            <ul>
+              <li><a href="#">Buy Majorville Merch</a></li>
+              <li><a href="#">Buy Tickets</a></li>
+              <li><a href="#">Find Us On Facebook</a></li>
+              <li><a href="#">Find Us On Google Maps</a></li>
+            </ul>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        <!-- Page Content -->
+        <h1>Activities</h1>
+        <ul>
+          <li>Live Music by Breathe Owl Breathe</li>
+          <li>Wagon Rides </li>
+          <li>Flower Crown making</li>
+          <li>Flower press</li>
+          <li>Food Trucks</li>
+          <li>Sack Races</li>
+          <li>Scavenger Hunt</li>
+          <li>Bonfire with S&apos;mores</li>
+          <li>U-Pick Strawberries</li>
+          <li>Children&apos;s and pet&apos;s costume contest</li>
+          <li>Outdoor yoga</li>
+          <li>Farm animal petting zoo</li>
+          <li>Baseball demonstrations by the Majorville Lumberjacks</li>
+          <li>Lumberjack Competitions: chopping, sawing, and speed pole climbing</li>
+          <li>Blacksmithing demonstration by Dan Nickels</li>
+          <li>Enjoy lemonade, lemonade slushies, ice cream, and other goodies from our local vendors</li>
+        </ul>
+        <h2>What Food Is There?</h2>
+        <ul>
+          <li><a href="https://www.pigseatinribs.com/food-truck" target="_blank">Pigs Eatin&apos; Ribs</a></li>
+          <li><a href="http://dailyblendtc.com/" target="_blank">Daily Blend</a></li>
+          <li><a href="https://mynorth.com/at_biz_dir/good-on-wheels/" target="_blank">Good on Wheels</a></li>
+          <li><a href="https://traversecitypizzaco.com/" target="_blank">TC Pizza Company</a></li>
+        </ul>
+        <figure>
+          <img src="food_truck.jpg" alt="Food Truck">
+          <figcaption>"Food Trucks at the Haiti Benefit" by ricardodiaz11 is licensed under CC BY 2.0.</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="history.html">Town History</a> | <a href="activities.html">Activities</a></p>
+      <p>Copyright &copy; Majorville 2024 | Alexander Paryani 2024</p>
+    </div>
+  </div>
+</body>
+</html>
